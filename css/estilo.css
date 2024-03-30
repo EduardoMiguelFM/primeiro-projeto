@@ -69,3 +69,17 @@ nav {
 #conteudo {
     line-height: 1.5;
 }
+form {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+form button {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+footer {
+    margin-top: 2px;
+    border-top: solid red;
+}
