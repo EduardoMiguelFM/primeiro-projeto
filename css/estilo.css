@@ -14,73 +14,46 @@
 
 /*Tag*/
 
-#titulos {
+#cabecalho{
+    background-color: blue;
+}
+
+#titulos{
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
-    background-color: blue;
+#menu{
+    font-weight:bold;
 }
 
-p {
+.container{
+    width: 90%;
+    height: 100%;
+    border: 2px solid #000;
+    margin:0 auto;
+    padding: 20px;
+}
+
+#conteudo{
+    line-height: 1.5;
+}
+
+form{
+    border: solid gray 1px;
+    padding: 10px;
+}
+
+p{
     color: green;
 }
 
-/* Class */
-.link {
-    color: black;
-}
-
-ul .link {
-    color: #e8240e;
-    display: inline;
-    margin: 0 2%;
-
-    /* Nesting links */
-    a{
-        text-decoration: none;
-        color: #e8240e;
-    }
-
-}
-
-#cabecalho h1 {
-    color: whitesmoke;
-}
-
-#menu ul{
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-nav {
-    font-weight: bold;
-}
-
-/* ID */
-#container {
-    width: 80%;
-    height: 100%;
-    border: 2px solid #000;
-    margin: 0 auto;
-    padding: 20px;
-    
-}
-
-#conteudo {
-    line-height: 1.5;
-}
-form {
-    padding: 10px;
-    border: 1px solid gray;
-}
-
-form button {
+form button{
     background-color: blue;
-    color: whitesmoke;
+    color :white;
 }
 
-footer {
+.rodape{
     margin-top: 2px;
     border-top: solid red;
 }
+
