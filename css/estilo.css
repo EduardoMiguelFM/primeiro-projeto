@@ -18,6 +18,10 @@
     background-color: blue;
 }
 
+a{
+    color: black;
+}
+
 #titulos{
     font-family: 'Times New Roman', Times, serif;
 }
